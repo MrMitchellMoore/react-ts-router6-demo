@@ -6,14 +6,6 @@ import { About } from './pages/about.tsx';
 import App from './App.tsx';
 import './index.css';
 
-import { makeServer } from './server';
-
-const environment = import.meta.env.NODE_ENV;
-
-if (environment !== 'production') {
-	makeServer({ environment });
-}
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 	<React.StrictMode>
 		<BrowserRouter>

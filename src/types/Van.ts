@@ -5,4 +5,4 @@ export type Van = {
 	description: string;
 	imgUrl: string;
 	type: string;
-};
+}[];
