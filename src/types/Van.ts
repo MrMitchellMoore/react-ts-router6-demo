@@ -3,6 +3,6 @@ export type Van = {
 	name: string;
 	price: number;
 	description: string;
-	imgUrl: string;
+	imageUrl: string;
 	type: string;
 }[];
